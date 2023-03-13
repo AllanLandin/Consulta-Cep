@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b39ba07c77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Consultando cep</title>
+</head>
+<body>
+    <header>
+        <nav class="top-bar">
+            <a href="" class="logo">Consulta Cep.</a>
+            <div class="menu-container">
+                <div class="menu-item-container">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="" class="item-link">Linkedin</a>
+                </div>
+            <div class="menu-container">
+                <div class="menu-item-container">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="" class="item-link">Github</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="/" method="post" class="form1">
+                <div class="input-container">
+                    <label for="cep">Cep: </label>
+                    <input class='input' maxlength='09' type="text" id="cep">
+                </div>
+                <div class="input-container">
+                    <label for="logradouro">Logradouro: </label>
+                    <input class='input' type="text" id="logradouro">
+                </div>
+                <div class="input-container">
+                    <label for="bairro">Bairro: </label>
+                    <input class='input' type="text" id="bairro">
+                </div>
+                <div class="input-container">
+                    <label for="localidade">Cidade: </label>
+                    <input class='input' type="text" id="localidade">
+                </div>
+                <div class="input-container">
+                    <label for="uf">UF: </label>
+                    <input class='input' type="text" maxlength='2' id="uf">
+                </div>
+                <button class='btn' type="submit">Enviar</button>
+                <button type="reset" class="btn">Limpar</button>
+            </form>
+            
+        </section>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+</html>
